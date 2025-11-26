@@ -2,7 +2,7 @@
 # https://github.com/manna-harbour/miryoku
 
 name: "Build Example eyelash_corne nice_view display custom config"
-on: workflow_dispatch
+on: push
 jobs:
   build:
     uses: ./.github/workflows/main.yml
