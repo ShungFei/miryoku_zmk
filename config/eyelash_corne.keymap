@@ -5,8 +5,3 @@
 #include "../miryoku/mapping/42/eyelash_corne.h"
 #include "../miryoku/miryoku.dtsi"
 
-/ {
-	chosen {
-		zmk,matrix_transform = &default_transform;
-	};
-};
