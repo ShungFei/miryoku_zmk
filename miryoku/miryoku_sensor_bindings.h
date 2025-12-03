@@ -7,27 +7,27 @@
 
 // Default sensor bindings for each layer
 #if !defined(MIRYOKU_SENSOR_BASE)
-  #define MIRYOKU_SENSOR_BASE &inc_dec_kp C_VOL_UP C_VOL_DN
+  #define MIRYOKU_SENSOR_BASE &inc_dec_kp LC(TAB) LS(LC(TAB))
 #endif
 
 #if !defined(MIRYOKU_SENSOR_EXTRA)
-  #define MIRYOKU_SENSOR_EXTRA &inc_dec_kp C_VOL_UP C_VOL_DN
+  #define MIRYOKU_SENSOR_EXTRA &inc_dec_kp LC(TAB) LS(LC(TAB))
 #endif
 
 #if !defined(MIRYOKU_SENSOR_TAP)
-  #define MIRYOKU_SENSOR_TAP &inc_dec_kp C_VOL_UP C_VOL_DN
+  #define MIRYOKU_SENSOR_TAP &inc_dec_kp LC(TAB) LS(LC(TAB))
 #endif
 
 #if !defined(MIRYOKU_SENSOR_BUTTON)
-  #define MIRYOKU_SENSOR_BUTTON &inc_dec_kp C_VOL_UP C_VOL_DN
+  #define MIRYOKU_SENSOR_BUTTON &inc_dec_kp LC(TAB) LS(LC(TAB))
 #endif
 
 #if !defined(MIRYOKU_SENSOR_NAV)
-  #define MIRYOKU_SENSOR_NAV &inc_dec_kp C_VOL_UP C_VOL_DN
+  #define MIRYOKU_SENSOR_NAV &inc_dec_kp F3 LS(F3)
 #endif
 
 #if !defined(MIRYOKU_SENSOR_MOUSE)
-  #define MIRYOKU_SENSOR_MOUSE &inc_dec_kp C_VOL_UP C_VOL_DN
+  #define MIRYOKU_SENSOR_MOUSE &inc_dec_kp C_BRI_UP C_BRI_DN
 #endif
 
 #if !defined(MIRYOKU_SENSOR_MEDIA)
@@ -35,11 +35,11 @@
 #endif
 
 #if !defined(MIRYOKU_SENSOR_NUM)
-  #define MIRYOKU_SENSOR_NUM &inc_dec_kp C_VOL_UP C_VOL_DN
+  #define MIRYOKU_SENSOR_NUM &inc_dec_kp F3 LS(F3)
 #endif
 
 #if !defined(MIRYOKU_SENSOR_SYM)
-  #define MIRYOKU_SENSOR_SYM &inc_dec_kp C_VOL_UP C_VOL_DN
+  #define MIRYOKU_SENSOR_SYM &inc_dec_kp C_BRI_UP C_BRI_DN
 #endif
 
 #if !defined(MIRYOKU_SENSOR_FUN)
